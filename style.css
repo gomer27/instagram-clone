@@ -1,0 +1,37 @@
+/* base css start */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* base css end */
+
+/* header start */
+header .u-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 54px;
+  background-color: #eeeeee;
+}
+header .u-navbar .u-search form input {
+  padding: 0 1rem;
+}
+header .u-navbar div ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+header .u-navbar div ul li img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.8rem;
+  border-radius: 50%;
+}
+/* header end */
+
+/* main start */
+/* main end */
