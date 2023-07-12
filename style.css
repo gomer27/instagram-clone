@@ -34,4 +34,23 @@ header .u-navbar div ul li img {
 /* header end */
 
 /* main start */
+.story {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  overflow: hidden;
+}
+.story-img {
+  height: 4rem;
+  width: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.story-text {
+  font-size: 0.5rem;
+}
+
 /* main end */
