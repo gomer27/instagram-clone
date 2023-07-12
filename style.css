@@ -4,6 +4,17 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --main-color: #87ceeb33;
+  --blue-color: rgb(69, 170, 242);
+  --blue-color2: #c2e7ff;
+  --green-color: #4caf50;
+  --red-color: rgb(193, 53, 21);
+  --border-color: 0.1rem solid rgb(0, 0, 0, 1);
+  --black-color: rgb(0, 0, 0);
+  --post-color: rgb(221, 219, 219);
+  --post-color2: rgb(201, 196, 196);
+}
 /* base css end */
 
 /* header start */
@@ -34,6 +45,8 @@ header .u-navbar div ul li img {
 /* header end */
 
 /* main start */
+
+/* story start */
 .story {
   display: flex;
   justify-content: start;
@@ -52,5 +65,77 @@ header .u-navbar div ul li img {
 .story-text {
   font-size: 0.5rem;
 }
+/* story end */
+
+/* post start */
+.post {
+  padding: 2rem 4rem;
+  background-color: rgba(204, 204, 204, 0.4);
+}
+.post .post-header {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 0.4rem;
+  padding-bottom: 0.2rem;
+  background-color: var(--post-color);
+}
+.post .post-header .posting-person-img img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.post .post-header .posting-person-name {
+  font-size: 1rem;
+}
+.post .post-body img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+.post .post-footer {
+  height: 2rem;
+  background-color: var(--post-color);
+  padding: 0.2rem 0.8rem;
+}
+.post .post-footer .post-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+.post .post-footer .post-icon .post-icon1 {
+  display: flex;
+  gap: 0.4rem;
+}
+.post .likes {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.post .likes p {
+  line-height: 0.5rem;
+}
+.post .likes img {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+.post .comments p,
+.post .post-comment p {
+  line-height: 0.5rem;
+}
+.post .comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--post-color);
+  padding: 0.2rem 1rem 0;
+}
+.post .comment .comment-share a {
+  text-decoration: none;
+}
+/* post end */
 
 /* main end */
