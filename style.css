@@ -45,7 +45,7 @@ header .u-navbar div ul li img {
 /* header end */
 
 /* main start */
-
+/* article start */
 /* story start */
 .story {
   display: flex;
@@ -71,6 +71,7 @@ header .u-navbar div ul li img {
 .post {
   padding: 2rem 4rem;
   background-color: rgba(204, 204, 204, 0.4);
+  border: 1px solid var(--post-color);
 }
 .post .post-header {
   display: flex;
@@ -137,5 +138,57 @@ header .u-navbar div ul li img {
   text-decoration: none;
 }
 /* post end */
+/* article end */
 
+/* aside start */
+.box {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+.box .box-container .nav-link span img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-left: -15px;
+}
+.box .box-container .nav-link span .user-name {
+  font-size: 15px;
+  color: black;
+  margin-left: 1rem;
+}
+.box .box-container .recommended span img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.box .box-container .recommended {
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.box .box-container .recommended a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .box-container .recommended a .post-user-font1 {
+  font-size: 16px;
+  color: #ccc;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.box .box-container .recommended a .post-user-font2 {
+  font-size: 13px;
+  color: #0095f6;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.suggestion {
+  border: 1px solid var(--post-color);
+}
+/* aside end */
 /* main end */
